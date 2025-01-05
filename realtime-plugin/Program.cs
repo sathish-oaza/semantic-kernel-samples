@@ -68,7 +68,7 @@ RealtimeConversationSession session = await realtimeConversationClient.StartConv
 // Configure session with defined options.
 await session.ConfigureSessionAsync(sessionOptions);
 
-await session.AddItemAsync(ConversationItem.CreateSystemMessage(["You are a helpful digital assistant called Chad. You can use the plugins and functions and tools provided. Respond in character."]));
+await session.AddItemAsync(ConversationItem.CreateSystemMessage(null, ["You are a helpful digital assistant called Chad. You can use the plugins and functions and tools provided. Respond in character."]));
 
 #pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
 GatherResponses(kernel, session);
