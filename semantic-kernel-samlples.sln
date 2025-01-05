@@ -1,9 +1,11 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chat-plugin", "chat-plugin/chat-plugin.csproj", "{8363B49B-1AF0-453B-8781-A21D2C3DC98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chat-plugin", "chat-plugin\chat-plugin.csproj", "{8363B49B-1AF0-453B-8781-A21D2C3DC98C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "realtime-plugin", "realtime-plugin\realtime-plugin.csproj", "{CFE4B364-E38B-47B0-A0E0-66D33B06FA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8363B49B-1AF0-453B-8781-A21D2C3DC98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8363B49B-1AF0-453B-8781-A21D2C3DC98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8363B49B-1AF0-453B-8781-A21D2C3DC98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE4B364-E38B-47B0-A0E0-66D33B06FA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE4B364-E38B-47B0-A0E0-66D33B06FA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE4B364-E38B-47B0-A0E0-66D33B06FA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE4B364-E38B-47B0-A0E0-66D33B06FA22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
